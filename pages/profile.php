@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="col-12 col-lg-8">
-                        <div class="col-12  profile-container profileContentBox">
+                        <div class="col-12  subContent-container profileContentBox">
                             <div class="container px-3">
                                 <div class="col-12">
                                     <div class="row pt-3 d-flex justify-content-center fs-3 fw-bold">Edit Your Profile</div>
