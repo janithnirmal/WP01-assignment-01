@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>New Tech</title>
+    <title>New Tech | Store</title>
     <link rel="icon" href="../resources/logo/icon.svg" />
 
     <!-- css files -->
@@ -19,56 +19,60 @@
     <!-- nav bar -->
     <?php include("navbar.php"); ?>
 
-
     <!-- search bar -->
     <section>
-        <div class="container search-container">
+        <div class="container search-container mt-2" style="background-color: rgb(216, 216, 216)">
             <div class="col-12 h-100 px-3">
                 <div class="row h-100 align-items-center justify-content-center">
                     <input type="text" class="col-lg-6 col-10 search-bar" placeholder="Search your items here...">
                     <div class="col-2 search-button text-center pt-1"><i class="bi bi-search text-white fs-3"></i></div>
                 </div>
             </div>
-
         </div>
-    </section>
 
-    <!-- content -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="../resources/images/bg1.jpg" class="d-block" style="width: 100%; background-size: cover;">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="../resources/images/bg2.jpg" class="d-block" style="width: 100%; background-size: cover;">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../resources/images/bg3.jpg" class="d-block" style="width: 100%; background-size: cover;">
+        <div class="container search-container pb-3 h-100" style="background-color: rgb(216, 216, 216)">
+            <div class="col-12 d-flex justify-content-center h-100">
+                <div class="row col-lg-8 col-12 h-100">
+                    <div class="col-6 p-0">
+                        <select class="c-inputs px-4  col-12">
+                            <option disabled selected>Select a Brand</option>
+                            <option>Apple</option>
+                            <option>Samsung</option>
+                            <option>sony</option>
+                            <option>vivo</option>
+                            <option>msi</option>
+                            <option>asus</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6 p-0">
+                        <select class="c-inputs px-4 float-end col-12 ">
+                            <option disabled selected>Select a model</option>
+                            <option>galaxy j7</option>
+                            <option>galaxy s5</option>
+                            <option>galaxy a20</option>
+                            <option>galaxy a30</option>
+                            <option>galaxy note 7</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 mt-3 mb-1">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <a href="advancedSearch.php"><span class="advanced-button text-decoration-underline link-primary fw-bold fs-5">Advanced</span></a>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
                 </div>
             </div>
         </div>
-
     </section>
-
 
     <!-- section 2 / product listing -->
     <!-- use a function to send an id which coresponds to the each category, then reset the innerHtml of containers accordingly -->
     <section>
-        <div class="hr-line" style=" background-color: rgb(248, 56, 56);">
-            <div class="container h-100">
+
+        <div class="hr-line mt-2" style=" background-color: rgb(248, 56, 56);">
+            <div class="container h-100 d-flex justify-content-between">
                 <ul class="d-flex h-100  align-items-center list-unstyled" id="myTab" role="tablist">
                     <li id="navigation-default" class="h-100 default-category category-navigation nav-item border-0">
                         <button id="ctb0" onclick="categoryChanger(event);" value="ct0" style=" border: 0; border-radius: 0; background-color: transparent;" class="px-3 h-100 py-2 nav-link" type="button">Mobiles</button>
@@ -83,6 +87,15 @@
                         <button id="ctb3" onclick="categoryChanger(event);" value="ct3" style=" border: 0; border-radius: 0; background-color: transparent;" class="px-3 h-100 py-2 nav-link" type="button">Other</button>
                     </li>
                 </ul>
+
+                <div class="sort-box">
+                    <select class="border-0 w-100 h-100 ps-3 fw-bold">
+                        <option>Price Low to High</option>
+                        <option>Price High to Low</option>
+                        <option>Date Added New to Old</option>
+                        <option>Date Added Old to New</option>
+                    </select>
+                </div>
             </div>
         </div>
 
@@ -100,6 +113,8 @@
 
         </div>
     </section>
+
+
 
 
     <!-- footer -->

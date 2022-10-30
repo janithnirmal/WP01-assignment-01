@@ -12,10 +12,10 @@
                 <!-- menu -->
                 <menu class="d-lg-block d-none menu fw-bold text-white d-flex justify-content-center align-items-center" style="font-size: 18px;">
                     <ul class="d-flex justify-content-center align-items-center">
-                        <li>Home</li>
-                        <li>Store</li>
-                        <li>About us</li>
-                        <li>Contacts</li>
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="store.php">Store</a></li>
+                        <li><a href="aboutUs.php">About us</a></li>
+                        <li><a href="contactUs.php">Contacts</a></li>
                     </ul>
                 </menu>
 
@@ -27,7 +27,7 @@
                         <i class="bi ms-1 bi-record-fill text-white" style="font-size: 8px;"></i>
                         <i class="bi bi-cart2 text-white" style="font-size: 22px;"></i>
                         <i class="bi ms-1 bi-record-fill text-white" style="font-size: 8px;"></i>
-                        <i class="bi ms-1 bi-person-circle text-white" style="font-size: 22px;"></i>
+                        <a href="profile.php"><i class="bi ms-1 bi-person-circle text-white" style="font-size: 22px;"></i></a>
                         <i class="bi ms-1 bi-record-fill text-white d-md-flex me-1 d-none" style="font-size: 8px;"></i>
                     </div>
 

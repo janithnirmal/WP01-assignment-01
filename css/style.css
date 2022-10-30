@@ -4,12 +4,64 @@
     box-sizing: border-box;
 }
 
+.mt-color {
+    color: rgb(248, 56, 56);
+}
+
+.mb-color {
+    background-color: rgb(248, 56, 56);
+}
+
+a {
+    text-decoration: none;
+    outline-color: rgb(248, 56, 56);
+    outline-width: 1px;
+    color: white;
+}
+
+a:hover {
+    color: rgb(231, 208, 208);
+}
+
+
 .sinIn-body {
     background-image: url(../resources/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.c-inputs {
+    width: 95%;
+    height: 35px;
+    border: none;
+    outline-color: rgb(248, 56, 56);
+    padding-left: 10px;
+}
+
+select {
+    background: url(../resources/dropdownIcon.svg) no-repeat right rgb(252, 252, 252);
+    -webkit-appearance: none;
+    background-position-x: 95%;
+}
+
+.c-inputs:disabled {
+    background-color: rgb(160, 160, 160);
+}
+
+.c-btn {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline-color: rgb(248, 56, 56);
+    background-color: rgb(248, 56, 56);
+    padding-left: 10px;
+    color: white;
+}
+
+
+.c-btn:hover {
+    background-color: rgb(248, 88, 88);
+}
 
 .background {
     height: 100vh;
@@ -63,6 +115,11 @@
     margin: 0 30px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
 .profile {
     width: 50px;
     height: 50px;
@@ -73,16 +130,83 @@
     height: 70px;
 }
 
+.search-container {
+    height: 70px;
+}
+
+.search-bar {
+    height: 50px;
+    background-color: white;
+    padding-left: 20px;
+    outline: none;
+    border-style: solid none solid solid;
+}
+
+.search-button {
+    height: 50px;
+    background-color: rgb(78, 78, 78);
+    transition: 200ms;
+}
+
+.search-button:hover {
+    background-color: rgb(248, 56, 56);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
 .category-navigation {
     color: white;
     transition: 100ms;
+    font-weight: bold;
 }
 
 .category-navigation:hover {
     background-color: white;
     color: rgb(248, 56, 56);
     transition: 100ms;
+}
+
+.hoverEffect:hover {
+    color: rgb(248, 56, 56);
+}
+
+.default-category {
+    background-color: white;
+    color: rgb(248, 56, 56);
+}
+
+.category-navigation button {
+    outline: none;
+}
+
+.pagination-block {
+    border-color: rgb(248, 56, 56);
+    padding: 10px;
+    border-style: solid solid solid none;
+    color: rgb(248, 56, 56);
     font-weight: bold;
+    text-decoration: none;
+}
+
+.pbbl {
+    border-left: solid;
+    border-left-color: rgb(248, 56, 56);
+}
+
+.pagination-block-active {
+    background-color: rgb(248, 56, 56);
+    color: white;
+}
+
+.pagination-block-active:hover {
+    border-left-color: rgb(248, 56, 56);
+}
+
+.pagination-block:hover {
+    background-color: rgb(248, 56, 56);
+    color: black;
+    border-left-color: rgb(248, 56, 56);
 }
 
 footer {
@@ -90,6 +214,72 @@ footer {
     padding: 20px 0;
 }
 
+
+/* profile */
+.profile-header {
+    height: 70px;
+    color: white;
+    background-color: rgb(248, 56, 56);
+}
+
+.profileContentBox {
+    min-height: 530px;
+}
+
+.profile-box {
+    background-color: rgb(248, 56, 56);
+    border: 1px rgb(248, 56, 56) solid;
+}
+
+.profile-container {
+    /* border: 1px rgb(248, 56, 56) solid; */
+    background-color: rgb(230, 225, 225);
+
+}
+
+.profile-picture {
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    background-color: blue;
+    background-image: url(../resources/images/profile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/* contact us page */
+
+.page-header {
+    height: 70px;
+    width: 100%;
+}
+
+
+/* product listing page */
+
+.search-container select {
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+
+.sort-box {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+
+.sort-box select {
+    outline-color: rgb(248, 88, 88);
+}
+
+.advanced-search-container {
+    background-color: rgb(216, 216, 216);
+}
 
 /* responsive */
 @media (max-width: 1200px) {
@@ -117,7 +307,7 @@ footer {
 
 @keyframes colorChnager {
     0% {
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.233);
     }
 
     20% {
