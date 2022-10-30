@@ -23,9 +23,9 @@
                 <div class="d-flex align-items-center">
                     <!-- purches details -->
                     <div class="d-flex justify-content-center align-items-center">
-                        <a href="bookmark.php"><i class="bi bi-bookmark text-white" style="font-size: 22px;"></i></a>
+                        <i class="bi bi-bookmark text-white" style="font-size: 22px;"></i>
                         <i class="bi ms-1 bi-record-fill text-white" style="font-size: 8px;"></i>
-                        <a href="cart.php"><i class="bi bi-cart2 text-white" style="font-size: 22px;"></i></a>
+                        <i class="bi bi-cart2 text-white" style="font-size: 22px;"></i>
                         <i class="bi ms-1 bi-record-fill text-white" style="font-size: 8px;"></i>
                         <a href="profile.php"><i class="bi ms-1 bi-person-circle text-white" style="font-size: 22px;"></i></a>
                         <i class="bi ms-1 bi-record-fill text-white d-md-flex me-1 d-none" style="font-size: 8px;"></i>
