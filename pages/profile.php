@@ -43,17 +43,36 @@
     </header>
 
 
+    <!-- section -->
+    <section>
+        <div class="container">
+            <div class="col-12">
+                <div class="row p-3">
+                    <div class="col-6 text-center">
+                        <div class="row px-2">
+                            <span onclick="window.location='myProducts.php' " style="cursor: pointer;" class="col-12 pt-1 fw-bold c-btn">My Products</span>
+                        </div>
+                    </div>
+                    <div class="col-6 text-center">
+                        <div class="row px-2">
+                            <span onclick="window.location='purchesedHistory.php' " style="cursor: pointer;" class="col-12 pt-1 fw-bold c-btn">Purchesed history</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- content -->
     <section>
         <div class="col-12">
             <div class="container">
-                <div class="row p-3 d-flex justify-content-between">
+                <div class="row px-3 d-flex justify-content-between">
 
                     <div class="col-12 col-lg-4">
                         <div class="col-12 profile-box profileContentBox">
                             <div class="col-12 mt-4 d-flex justify-content-center">
-                                <div class="profile-picture"></div>
+                                <div class="profile-picture" style="background-image: url(../resources/images/profile.png);"></div>
                             </div>
 
                             <div class="row px-5 mt-3 justify-content-center align-items-center col-12">

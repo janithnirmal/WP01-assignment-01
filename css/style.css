@@ -35,7 +35,7 @@ a:hover {
     height: 35px;
     border: none;
     outline-color: rgb(248, 56, 56);
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 select {
@@ -53,7 +53,8 @@ select {
     width: 100%;
     height: 35px;
     border: none;
-    outline-color: rgb(248, 56, 56);
+    outline-color: rgb(240, 150, 150);
+    outline-width: 2px;
     background-color: rgb(248, 56, 56);
     padding-left: 10px;
     color: white;
@@ -211,7 +212,7 @@ select {
 }
 
 footer {
-    height: 200px;
+    min-height: 200px;
     padding: 20px 0;
 }
 
@@ -243,7 +244,6 @@ footer {
     width: 250px;
     border-radius: 200px;
     /* background-color: blue; */
-    background-image: url(../resources/images/profile.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -282,12 +282,33 @@ footer {
     background-color: rgb(216, 216, 216);
 }
 
+
+
+
+/* single prdocut view */
+
+.single-product-image {
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
 /* responsive */
 @media (max-width: 1200px) {
     .menu li {
         margin: 0 15px;
     }
 }
+
+
+
 
 
 @keyframes hider {

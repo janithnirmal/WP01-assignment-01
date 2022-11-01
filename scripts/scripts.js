@@ -71,3 +71,10 @@ function categoryChanger(event) {
     r.open("GET", "../pages/categories/" + targetedSection + ".php", true);
     r.send();
 }
+
+
+
+// single product view
+function singleProductView() {
+    window.location = "singleProdcutView.php";
+}

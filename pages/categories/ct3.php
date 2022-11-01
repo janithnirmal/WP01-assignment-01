@@ -5,9 +5,12 @@
             <div class="col">
                 <div class="card">
                     <img src="../resources/images/c2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col-12">
+                        <div class="row p-3">
+                            <span class="col-12 fs-4 fw-bold">Product Title</span>
+                            <span class="col-12 fs-6 text-secondary">Kavindu Gimhana</span>
+                            <span class="col-12 fs-4 fw-bold text-success">$100 .00</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -17,9 +20,12 @@
             <div class="col">
                 <div class="card">
                     <img src="../resources/images/c2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col-12">
+                        <div class="row p-3">
+                            <span class="col-12 fs-4 fw-bold">Product Title</span>
+                            <span class="col-12 fs-6 text-secondary">Kavindu Gimhana</span>
+                            <span class="col-12 fs-4 fw-bold text-success">$100 .00</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,9 +35,12 @@
             <div class="col">
                 <div class="card">
                     <img src="../resources/images/c2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col-12">
+                        <div class="row p-3">
+                            <span class="col-12 fs-4 fw-bold">Product Title</span>
+                            <span class="col-12 fs-6 text-secondary">Kavindu Gimhana</span>
+                            <span class="col-12 fs-4 fw-bold text-success">$100 .00</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,9 +50,12 @@
             <div class="col">
                 <div class="card">
                     <img src="../resources/images/c2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="col-12">
+                        <div class="row p-3">
+                            <span class="col-12 fs-4 fw-bold">Product Title</span>
+                            <span class="col-12 fs-6 text-secondary">Kavindu Gimhana</span>
+                            <span class="col-12 fs-4 fw-bold text-success">$100 .00</span>
+                        </div>
                     </div>
                 </div>
             </div>
