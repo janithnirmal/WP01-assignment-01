@@ -78,3 +78,51 @@ function categoryChanger(event) {
 function singleProductView() {
     window.location = "singleProdcutView.php";
 }
+
+
+// admin page user content loader
+function userContentLoader() {
+    var container = document.getElementById("userContent");
+
+    var r = new XMLHttpRequest();
+
+    r.onreadystatechange = function () {
+        if (r.readyState == 4) {
+            var t = r.responseText;
+            var content = t;
+            for (var x = 0; x < 15; x++) {
+
+                content = content + t;
+            }
+            container.innerHTML = content;
+
+        }
+    }
+
+    r.open("GET", "app/repeatedUsers.php", true);
+    r.send();
+}
+
+
+// admin page product content loader
+function productContentLoader() {
+    var container = document.getElementById("userContent");
+
+    var r = new XMLHttpRequest();
+
+    r.onreadystatechange = function () {
+        if (r.readyState == 4) {
+            var t = r.responseText;
+            var content = t;
+            for (var x = 0; x < 15; x++) {
+
+                content = content + t;
+            }
+            container.innerHTML = content;
+
+        }
+    }
+
+    r.open("GET", "app/repeatedProducts.php", true);
+    r.send();
+}

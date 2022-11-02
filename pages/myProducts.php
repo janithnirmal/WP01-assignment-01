@@ -60,7 +60,7 @@
                                         <input type="text" class="c-inputs" />
                                     </div>
 
-                                    <a href="#" class="col-1 pe-3">
+                                    <a href="#" class="col-1 ">
                                         <div class="row">
                                             <div class="col-12 p-0">
                                                 <div class="row d-flex justify-content-center align-items-center"><i class="bi text-light bi-search fs-4 p-0"></i></div>
@@ -244,7 +244,7 @@
                                                             <button class="c-btn bg-secondary">Delete</button>
                                                         </div>
                                                         <div class="col-4">
-                                                            <button class="c-btn bg-danger">Edit</button>
+                                                            <button class="c-btn bg-danger" onclick="window.location='updateProducts.php'">Edit</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -287,7 +287,7 @@
                                                             <button class="c-btn bg-secondary">Delete</button>
                                                         </div>
                                                         <div class="col-4">
-                                                            <button class="c-btn bg-danger">Edit</button>
+                                                            <button class="c-btn bg-danger" onclick="window.location='updateProducts.php'">Edit</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -330,7 +330,7 @@
                                                             <button class="c-btn bg-secondary">Delete</button>
                                                         </div>
                                                         <div class="col-4">
-                                                            <button class="c-btn bg-danger">Edit</button>
+                                                            <button class="c-btn bg-danger" onclick="window.location='updateProducts.php'">Edit</button>
                                                         </div>
                                                     </div>
                                                 </div>

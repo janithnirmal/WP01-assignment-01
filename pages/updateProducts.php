@@ -28,7 +28,7 @@
                         </a>
                     </div>
 
-                    <div class="col-6 fw-bold fs-3 text-center">Add a Products </div>
+                    <div class="col-6 fw-bold fs-3 text-center">Update Product </div>
 
                     <div class="col-3 d-flex align-items-center ">
                         <!-- purches details -->
@@ -57,6 +57,9 @@
         <div class="container">
             <div class="col-12 my-3">
                 <div class="row">
+                    <div class="col-12 d-flex justify-content-center bg-dark">
+                        <span class="fw-bold fs-4 p-2 text-light text-center">Enter Your Product Details</span>
+                    </div>
                     <div class="col-12">
                         <div class="row d-flex flex-row-reverse px-3">
 
@@ -70,7 +73,7 @@
 
                                     <div class="col-12 mt-2">
                                         <div class="row">
-                                            <button class="c-btn">Upload Image</button>
+                                            <button class="c-btn">Change Image</button>
                                         </div>
                                     </div>
                                 </div>
@@ -78,8 +81,11 @@
 
                             <div class="col-12 col-lg-8 mt-2">
                                 <div class="row">
-                                    <div class="col-12 d-flex justify-content-center bg-dark">
-                                        <span class="fw-bold fs-4 p-2 text-light text-center">Enter Your Product Details</span>
+
+                                    <div class="col-12 mt-2">
+                                        <div class="row">
+                                            <label class="fw-bold form-label">product Id : <span class="text-danger">#23gh4j5h</span></label>
+                                        </div>
                                     </div>
 
                                     <div class="col-12 mt-2">
@@ -89,15 +95,12 @@
                                         </div>
                                     </div>
 
+
                                     <div class="col-4 mt-2">
                                         <div class="row d-flex justify-content-center">
                                             <label class="fw-bold form-label">Category</label>
-                                            <select class="c-inputs p-1 px-2" style="border: 1px black solid;">
-                                                <option disabled selected>Select a Category</option>
-                                                <option>Category 1</option>
-                                                <option>Category 2</option>
-                                                <option>Category 3</option>
-                                                <option>Category 4</option>
+                                            <select disabled class="text-light c-inputs p-1 px-2" style="border: 1px black solid;">
+                                                <option selected >Category 1</option>
                                             </select>
                                         </div>
                                     </div>
@@ -105,12 +108,8 @@
                                     <div class="col-4 mt-2">
                                         <div class="row d-flex justify-content-center">
                                             <label class="fw-bold form-label">Brand</label>
-                                            <select class="c-inputs p-1 px-2" style="border: 1px black solid;">
-                                                <option disabled selected>Select a Brand</option>
-                                                <option>Brand 1</option>
-                                                <option>Brand 1</option>
-                                                <option>Brand 1</option>
-                                                <option>Brand 1</option>
+                                            <select disabled class="c-inputs p-1 px-2 text-light" style="border: 1px black solid;">
+                                                <option selected>Brand 1</option>
                                             </select>
                                         </div>
                                     </div>
@@ -118,12 +117,8 @@
                                     <div class="col-4 mt-2">
                                         <div class="row d-flex justify-content-center">
                                             <label class="fw-bold form-label">Model</label>
-                                            <select class="c-inputs p-1 px-2" style="border: 1px black solid;">
-                                                <option disabled selected>Select a Model</option>
-                                                <option>Model 1</option>
-                                                <option>Model 1</option>
-                                                <option>Model 1</option>
-                                                <option>Model 1</option>
+                                            <select  disabled class="text-light c-inputs p-1 px-2" style="border: 1px black solid;">
+                                                <option selected >Model 1</option>
                                             </select>
                                         </div>
                                     </div>
@@ -154,21 +149,21 @@
                             <div class="col-6 mt-2">
                                 <div class="row">
                                     <label class="fw-bold form-label">Cost *</label>
-                                    <input type="text" class="c-inputs" value="$100 .00" style="border: 1px black solid; width: 100%;" />
+                                    <input disabled type="text" class="text-light c-inputs" value="$100 .00" style="border: 1px black solid; width: 100%;" />
                                 </div>
                             </div>
 
                             <div class="col-6 mt-2">
                                 <div class="row px-2">
                                     <label class="fw-bold form-label">Quantity</label>
-                                    <input type="number" class="c-inputs" style="border: 1px black solid; width: 100%;" />
+                                    <input type="number" class="c-inputs" value="12" style="border: 1px black solid; width: 100%;" />
                                 </div>
                             </div>
 
                             <div class="col-6 mt-2">
                                 <div class="row px-2">
                                     <label class="fw-bold form-label">Discount</label>
-                                    <input type="number" class="c-inputs" style="border: 1px black solid; width: 100%;" value="0%" />
+                                    <input type="number" class="c-inputs" value="12%" style="border: 1px black solid; width: 100%;" value="0%" />
                                 </div>
                             </div>
 
